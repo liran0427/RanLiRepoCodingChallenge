@@ -13,8 +13,12 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			VBox root = new VBox();
+
+			root.getChildren().add(new Label("Ran's branch"));
+
 			root.getChildren().add(new Label("Ran's master branch"));
 			root.getChildren().add(new Label("Ran's another branch"));
+
 			root.getChildren().add(new Label("Saja's label"));
 			root.getChildren().add(new Label("Saja's branch"));
 
